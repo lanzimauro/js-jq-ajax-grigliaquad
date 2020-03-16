@@ -11,6 +11,8 @@ $(document).ready(function() {
                 }else {
                     $(event.target).addClass("green");
                 }
+
+                $(event.target).html('<p>' + numeroRandom + '</p>')
             },
             error: function () {
                 alert('ERRORE');
