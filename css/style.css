@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
