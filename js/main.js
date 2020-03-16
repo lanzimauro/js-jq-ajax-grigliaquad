@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(document).on("click", function(event) {
+    $(document).on("click", '.griglia', function(event) {
         $.ajax({
             url: 'https://flynn.boolean.careers/exercises/api/random/int',
             method: 'GET',
